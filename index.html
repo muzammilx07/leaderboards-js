@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leaderboard</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>LEADER BOARD</h1>
+      <button id="formButton">Show Form</button>
+      <form id="leaderboardForm">
+        <input type="text" id="firstName" placeholder="Enter FirstName" />
+        <input type="text" id="lastName" placeholder="Enter LastName" />
+        <input type="text" id="country" placeholder="Enter Country" />
+        <input type="number" id="score" placeholder="Enter Score" />
+        <button type="button" id="addToLeaderboardButton">Add to Leaderboard</button>
+      </form>
+    </div>
+    <div class="box">
+      <ul id="leaderboardList">
+        <!-- List items will be dynamically added here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
